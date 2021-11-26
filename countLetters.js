@@ -5,7 +5,7 @@ const assertEqual = function (actual, expected) {
     console.log(`✅✅✅ Assertion Passed  ${actual}  ===  ${expected}`)
   }
 };
-
+//whitespaces still get counted...
 function countLetter(word) {
   letterCounter = {}
   for (const letter of word) {
