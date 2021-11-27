@@ -19,10 +19,7 @@ function eqArrays(arr1, arr2) {
     }else {
       return true
     }
-
   }
-
-
 }
 
 assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); 
