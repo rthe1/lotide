@@ -18,3 +18,5 @@ function countLetter(word) {
   return letterCounter
 
 }
+
+module.exports = countLetter;

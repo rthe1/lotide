@@ -25,20 +25,20 @@ function eqArrays(arr1, arr2) {
 }
 
 
-const words = ["ground", "control", "to", "major", "tom"];
+// const words = ["ground", "control", "to", "major", "tom"];
 
-const results1 = map(words, word => word[0]);
-console.log(results1);
+// const results1 = map(words, word => word[0]);
+// console.log(results1);
 
-const results2 = map(words, word => '"'+word+'"');
-console.log(results2);
+// const results2 = map(words, word => '"'+word+'"');
+// console.log(results2);
 
-const results3 = map(words, word => word + '🌑');
-console.log(results3);
+// const results3 = map(words, word => word + '🌑');
+// console.log(results3);
 
-console.log(assertArraysEqual(eqArrays(results1, words),false));
-console.log(assertArraysEqual(eqArrays(results2, words),false));
-console.log(assertArraysEqual(eqArrays(results3, words),false));
+// console.log(assertArraysEqual(eqArrays(results1, words),false));
+// console.log(assertArraysEqual(eqArrays(results2, words),false));
+// console.log(assertArraysEqual(eqArrays(results3, words),false));
 
-
+module.exports = map;
 

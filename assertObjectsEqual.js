@@ -27,5 +27,6 @@ function assertObjectsEqual (actual, expected) {
   }
 };
 
+module.exports = assertObjectsEqual;
 
-assertObjectsEqual(eqObjects({ a: 1 }, { a: 1 }), true)
+// assertObjectsEqual(eqObjects({ a: 1 }, { a: 1 }), true)
