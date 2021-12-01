@@ -8,7 +8,7 @@ function assertArraysEqual(actual, expected) {
   }
 }
 
-assertArraysEqual(eqArrays([1],[1]), true);
+// assertArraysEqual(eqArrays([1],[1]), true);
 
 module.exports = assertArraysEqual;
 
